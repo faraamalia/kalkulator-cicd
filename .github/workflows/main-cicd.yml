@@ -3,8 +3,8 @@ name: Kalkulator CI/CD Pipeline
 on:
   push:
      branches:
-      - main
-      - develop # <-- Tambahkan baris ini
+      -main
+      -develop # <-- Tambahkan baris ini
   pull_request:
     branches: [ main ]
 
