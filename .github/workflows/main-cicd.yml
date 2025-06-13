@@ -26,7 +26,7 @@ jobs:
       - name: 🧪 Jalankan Tes Unit (Continuous Testing)
         run: |
           echo "Menjalankan tes unit kalkulator..." 
-          node tests/calculator.test.js 
+          node tests/calculator_test.js 
 
       - name: ☕ Setup JDK 17 untuk SonarQube
         uses: actions/setup-java@v4
